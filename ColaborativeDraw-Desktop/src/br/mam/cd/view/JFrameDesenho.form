@@ -125,7 +125,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jTextFieldIpServer">
       <Properties>
-        <Property name="text" type="java.lang.String" value="10.0.200.243"/>
+        <Property name="text" type="java.lang.String" value="127.0.0.1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldIpServerActionPerformed"/>

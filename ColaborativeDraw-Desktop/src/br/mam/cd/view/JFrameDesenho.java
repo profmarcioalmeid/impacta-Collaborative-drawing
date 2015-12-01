@@ -174,7 +174,7 @@ public class JFrameDesenho extends javax.swing.JFrame implements Observer{
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel1.setText("User:");
 
-        jTextFieldIpServer.setText("10.0.200.243");
+        jTextFieldIpServer.setText("127.0.0.1");
         jTextFieldIpServer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldIpServerActionPerformed(evt);
