@@ -12,7 +12,7 @@ import ws.quadro.Quadro;
 public class QuadroClient {
 	public static void main(String[] args) throws MalformedURLException{
 		
-		URL url = new URL("http://10.0.200.116:54321/quadro?wsdl");
+		URL url = new URL("http://10.0.200.243:54321/quadro?wsdl");
 		QName qname = new QName("http://quadro.ws/","QuadroImplService");
 		
 		Service service = Service.create(url, qname);
